@@ -1,0 +1,17 @@
+-- database: ./database.db
+
+-- Use the ▷ button in the top right corner to run the entire file.
+
+SELECT * FROM Bikes;
+
+INSERT INTO Bikes(Model,TopSpeed,Cost,Description) VALUES("MT-03",108,5300,"The MT-03 features an aggressive 'Dark Side of Japan' design with a refined 321cc twin-cylinder engine. Its upright riding position and lightweight chassis make it perfect for urban commuting and twisty roads.");
+
+INSERT INTO Bikes(Model,TopSpeed,Cost,Description) VALUES("Kawasaki Ninja 400",116,5299,"A perennial favorite, the Ninja 400 offers approachable power with a sporty full-fairing look. Its nimble handling and 399cc engine make it a top choice for both new riders and track enthusiasts.");
+
+INSERT INTO Bikes(Model,TopSpeed,Cost,Description) VALUES("Yamaha MT-07",133,8199,"Known for its torque-rich 689cc CP2 engine, the MT-07 provides a thrilling, wheelie-prone ride. It is a versatile naked bike that excels in city carving and offers a raw, minimalist aesthetic.");
+
+INSERT INTO Bikes(Model,TopSpeed,Cost,Description) VALUES("Honda CBR500R",115,7299,"Honda’s mid-sized sportbike blends aggressive CBR styling with sensible ergonomics. The 471cc parallel-twin is incredibly reliable, making it an excellent daily commuter with a racing pedigree.");
+
+INSERT INTO Bikes(Model,TopSpeed,Cost,Description) VALUES("Kawasaki Z900",157,9899,"The Z900 is a powerhouse featuring a refined 948cc inline-four engine. It delivers crisp acceleration and a Sugomi-inspired design, offering a high-performance experience for seasoned riders.");
+
+INSERT INTO Bikes(Model,TopSpeed,Cost,Description) VALUES("Honda Rebel 500",95,6499,"The Rebel 500 reimagines the modern cruiser with a lean, blacked-out look. Its low seat height and user-friendly power delivery make it an iconic choice for those seeking a laid-back riding style.");
